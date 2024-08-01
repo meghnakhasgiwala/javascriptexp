@@ -1,0 +1,77 @@
+**
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+    color: white;
+    font-family: sans-serif;
+    /* height: 100%;
+    display: flex;
+    align-items: center;
+    align-items: center; */
+
+}
+/* h1{
+    text-align: center;
+    margin: 0 auto;
+} */
+#Main{
+    height: 60vh;
+    width: 60vh;
+    margin: 50px auto;
+    padding:20px;
+    box-shadow: 0px 5px 20px rgb(54, 53, 53);
+    background-color:white;
+    border-radius: 20px;
+    font-size: 40px;
+    display: flex;
+    color: black;;
+    align-items: center;
+    justify-content: space-evenly
+}
+#Card{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: red;
+    color:white;
+    /* 1vmax; in CSS sets the font size to 1% of the maximum of the viewport's width or height, whichever is smaller. This means that the font size will adjust
+     dynamically based on the size of the viewport, ensuring that the text remains readable 
+     across different screen sizes. As the viewport width or height changes, the font size will scale accordingly, ensuring consistent 
+     readability across different devices and screen sizes.
+ */
+
+    font-size: 1vmax;
+
+
+}
+#Card input{
+    padding: 8px 13px;
+    border:1px solid white;
+    border-radius:5px;
+    outline: none;
+
+}
+#Card div{
+    display: flex;
+    column-gap: 20px;
+
+}
+#Card button{
+    padding: 8px 13px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+#Card p
+{
+    width: 300px;
+    border: 5px solid white;
+    
+}
